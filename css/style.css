@@ -180,3 +180,35 @@ header{
     color: gray;
     margin-right: 5%;
 }
+
+/*--------------- 
+    CONTENT
+---------------*/
+
+.content{
+    width: 100%;
+}
+
+
+/* nav content */
+.nav-content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content li{
+    list-style-type: none;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: gray;
+}
+
