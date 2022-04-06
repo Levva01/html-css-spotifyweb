@@ -198,7 +198,7 @@ header{
 }
 
 .nav-content ul{
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -214,21 +214,22 @@ header{
 
 /* row */
 .content h2{
+    margin-bottom: 10px;
     margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .content .row{
+    margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
     width: calc(100% - 40px);
     display: flex;
-    justify-content:space-between;
+    flex-wrap: wrap;
 }
 
 .row .col{
     width: calc(16.6% - 20px);
+    margin-right: 20px;
 }
 
 .col img{
@@ -245,4 +246,17 @@ header{
     color: gray;
     font-size: small;
     text-align: center;
+}
+
+.subtitle-title{
+    margin: 0 0 30px 20px;
+    color: gray;
+}
+
+.circle{
+    border-radius: 100%;
+}
+
+.margin-bottom-50{
+    margin-bottom: 50px;
 }
