@@ -76,6 +76,7 @@ header{
     align-items: center;
 }
 
+/* button upgrade */
 .upgrade{
     color: white;
     border: 2px solid white;
@@ -85,3 +86,39 @@ header{
     margin-right: 30px;
     height: 50px;
 }
+
+/*-------------
+    SIDEBAR
+-------------*/
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .logo{
+    width: 70%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.sidebar-li{
+    margin-bottom: 10px;
+}
+
+.sidebar-li span{
+    line-height: 50%;
+    vertical-align: middle;
+}
+
+.sidebar-li img{
+    width: 10%;
+    height: auto;
+    margin-left: 20px;
+    line-height: 50%;
+    vertical-align: middle;
+    fill: green;
+}
+
