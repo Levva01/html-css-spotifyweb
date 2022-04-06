@@ -8,3 +8,55 @@
     padding: 0;
 }
 
+
+/*-------------------
+    CONTAINER
+-------------------*/
+
+/* container pagina */
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+/* header */
+header{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    margin-left: 200px;
+}
+
+/* main */
+main{
+    display: flex;
+    max-height: 80%;
+}
+
+/* barra laterale */
+.sidebar{
+    width: 200px;
+    background-color: blue;
+    color: white;
+    height: 85vh;
+    flex-shrink: 0;
+}
+
+/* contenuto main */
+.content{
+    background-color: pink;
+    height: 85vh;
+    overflow-y: scro;
+    text-align: justify;
+    overflow-x: hidden;
+}
+
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 15vh;      
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
