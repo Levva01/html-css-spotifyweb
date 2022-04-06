@@ -25,9 +25,10 @@ body{
 /* header */
 header{
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
     margin-left: 200px;
+    color: white;
 }
 
 /* main */
@@ -39,7 +40,7 @@ main{
 /* barra laterale */
 .sidebar{
     width: 200px;
-    background-color: blue;
+    background-color: black;
     color: white;
     height: 85vh;
     flex-shrink: 0;
@@ -47,19 +48,21 @@ main{
 
 /* contenuto main */
 .content{
-    background-color: pink;
+    color: white;
+    background-color: #141922;
     height: 85vh;
-    overflow-y: scro;
+    overflow-y: scroll;
     text-align: justify;
     overflow-x: hidden;
+    padding-top: 100px;
 }
 
 /* footer */
 footer{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #282828;
+    color: white;
     height: 15vh;      
     position: fixed;
     bottom: 0;
     width: 100vw;
 }
-
