@@ -33,7 +33,7 @@ main{
     width: 200px;
     background-color: black;
     color: white;
-    height: 85vh;
+    height: 88vh;
     flex-shrink: 0;
 }
 
@@ -41,7 +41,7 @@ main{
 .content{
     color: white;
     background-color: #141922;
-    height: 85vh;
+    height: 88vh;
     overflow-y: scroll;
     text-align: justify;
     overflow-x: hidden;
@@ -52,7 +52,7 @@ main{
 footer{
     background-color: #282828;
     color: white;
-    height: 15vh;      
+    height: 12vh;      
     position: fixed;
     bottom: 0;
     width: 100vw;
@@ -67,7 +67,7 @@ footer{
 header{
     width: calc(100% - 200px);
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     margin-left: 200px;
     color: white;
@@ -212,3 +212,37 @@ header{
     color: gray;
 }
 
+/* row */
+.content h2{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content .row{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content:space-between;
+}
+
+.row .col{
+    width: calc(16.6% - 20px);
+}
+
+.col img{
+    width: 100%;
+    height: auto;
+}
+
+.col .song-title{
+    margin: 8px 0;
+    text-align: center;
+}
+
+.col .song-subtitle{
+    color: gray;
+    font-size: small;
+    text-align: center;
+}
