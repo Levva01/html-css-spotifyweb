@@ -42,7 +42,7 @@ main{
     color: white;
     background-color: #141922;
     height: 88vh;
-    overflow-y: scroll;
+    overflow-y: auto;
     text-align: justify;
     overflow-x: hidden;
     padding-top: 100px;
@@ -259,4 +259,119 @@ header{
 
 .margin-bottom-50{
     margin-bottom: 50px;
+}
+
+.margin-left-10{
+    margin-left: -10px;
+}
+
+/*-----------
+    FOOTER
+-----------*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.left-footer .icons{
+    margin-left: 20px;
+}
+
+.left-footer img{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 40px;
+    height: auto;
+}
+
+.left-footer .song-subtitle{
+    font-size: 10px;
+    color: gray;
+}
+
+.left-footer i{
+    color: gray;
+    margin-left: 5px;
+}
+
+.central-footer{
+    color: white;
+}
+
+.music-range{
+    display: flex;
+    align-items: center;
+}
+
+.music-range .range-line-p1{
+    height: 5px;   
+    width: 5vw;
+    background-color: lightgray;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.central-footer .icons{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.central-footer i{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.music-range .range-line-p2{
+    height: 5px;   
+    width: 25vw;
+    border-radius: 50px;
+    background-color: gray;
+    margin-left: -5px;
+    z-index: -1;
+    margin-right: 10px;
+}
+
+.central-footer span{
+    font-size: 8px;
+}
+
+.right-footer{
+    display: flex;
+    align-items: center;
+}
+
+.right-footer i{
+    margin-right: 15px;
+    color: lightgray;
+    font-size: small;
+}
+
+.play-button{
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.range-volume-p1{
+    height: 5px;   
+    width: 2vw;
+    background-color: lightgray;
+    border-radius: 50px;
+}
+
+.range-volume-p2{
+    height: 5px;   
+    width: 5vw;
+    border-radius: 50px;
+    background-color: gray;
+    margin-left: -5px;
+    z-index: -1;
+    margin-right: 15px;
 }
