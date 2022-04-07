@@ -105,6 +105,10 @@ header{
     margin-bottom: 30px;
 }
 
+.sidebar .logo-small{
+    display: none;
+}
+
 .sidebar-li{
     margin-bottom: 10px;
     margin-left: 20px;
@@ -198,13 +202,17 @@ header{
 }
 
 .nav-content ul{
-    width: 75%;
+    width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .nav-content li{
     list-style-type: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 12px;
 }
 
 .nav-content a{
@@ -386,13 +394,98 @@ footer{
         width: calc(25% - 20px);
         margin-bottom: 20px;
     }
-    
-    .nav-content{
-        font-size: 10px;
-    }   
+
+    .song-title{
+        font-size: small;
+    }
 
     .nav-content ul{
-        width: 90%;
+        width: 70%;
+    }
+
+}
+
+/*--------------------
+  max-width  700px
+--------------------*/
+@media screen and (max-width: 700px) {
+    
+    .row .col{
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+}
+
+/*--------------------
+  max-width  600px
+--------------------*/
+@media screen and (max-width: 600px) {
+
+    header{
+        width: calc(100% - 70px);
+        margin-left: 70px;
+    }
+
+    .sidebar{
+        width: 70px;
+    }
+
+    .sidebar-top span{
+        display: none;
+    }
+
+    .sidebar-top h5{
+        display: none;
+    }
+
+    .sidebar-li{
+        margin-left: 0;
+        width: 60%;
+        margin: auto;
+
+    }
+
+    .sidebar-li img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .crea-playlist{
+        display: none;
+    }
+
+    .sidebar-bottom span, hr{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .sidebar-bottom {
+        padding-left: 0;
+    }    
+
+    .sidebar-bottom .install{
+        margin: auto;
+        width: 15%;
+    }
+
+    .sidebar-bottom img{
+        width: 60%;
+        height: auto;
+        margin-top: 15px;
+        margin-right: 0;
+        margin-left: 25%;
+    }
+
+    .sidebar .logo-small{
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
 }
