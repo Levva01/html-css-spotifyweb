@@ -686,6 +686,11 @@ footer{
         left: 70%;
     }
 
+    .sidebar-top::before{
+        top: 32%;
+        height: 43px;
+    }    
+
 }
 
 /* COLORS */
