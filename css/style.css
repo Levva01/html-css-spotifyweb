@@ -235,6 +235,30 @@ header{
     flex-wrap: wrap;
 }
 
+.album-container{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 4px);
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: none;
+    font-size: 30px;
+}
+
 .row .col{
     width: calc(16.6% - 20px);
     margin-right: 20px;
@@ -362,7 +386,7 @@ footer{
     font-size: small;
 }
 
-.play-button{
+.play-button-footer{
     font-size: 30px;
     vertical-align: middle;
 }
@@ -382,6 +406,53 @@ footer{
     margin-left: -5px;
     z-index: -1;
     margin-right: 15px;
+}
+
+
+/*-----------------------
+    HOVER EFFECTS
+-----------------------*/
+
+/* album canzoni */
+.album-container:hover .overlay{
+    display: block;
+}
+
+.album-container:hover .play-button{
+    display: block;
+}
+
+.album-container:hover{
+    cursor: pointer;
+}
+
+/* nav content lista */
+.nav-content a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.crea-playlist:hover{
+    cursor: pointer;
+}
+
+.sidebar-li:hover span{
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar-li:hover i{
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar-li:hover{
+    cursor: pointer;
+}
+
+.install:hover{
+    color: white;
+    cursor: pointer;
 }
 
 
@@ -488,4 +559,10 @@ footer{
         margin-bottom: 20px;
     }
 
+}
+
+/* COLORS */
+
+#text-white{
+    color: white;
 }
